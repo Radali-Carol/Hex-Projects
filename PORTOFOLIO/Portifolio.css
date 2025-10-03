@@ -1,0 +1,172 @@
+ body {
+   background-color: rgba(3, 3, 3, 0.923);
+   resize: both;
+   overflow: auto;
+
+ }
+
+
+
+ .NAVBAR {
+   background-color: rgb(241, 241, 241);
+   Display: flex;
+   gap: 5PX;
+   justify-content: flex-start;
+     height: 1%;
+   border-radius: 15px;
+  vertical-align: middle;
+margin:15px 30px  50px 21px;
+   padding: 0px 20px 0px 15px;
+ }
+
+ .name {
+   font-size: 30px;
+   color: rgb(17, 17, 17);
+   margin-right:565px;
+ }
+
+ .conIcon{
+  width:30px;
+  height:30px;
+  border-radius:15px;
+  margin-top:35px;
+   
+   cursor:pointer;
+  
+ }
+
+.contact{
+  font-size:23px;
+   margin-top:35px;
+   color:black;
+   cursor:pointer;
+}
+
+.contact:hover {
+   color:rgb(40, 41, 41);
+}
+.conIcon:hover{
+   filter:grayscale(100%);
+}
+ 
+ .a {
+ 
+   cursor: pointer;
+   border: none;
+   text-decoration: none;
+   color: rgb(246, 244, 244);
+   font-size: 25px;
+   font-weight: bold;
+     margin:50px 0px 0px 680px;
+
+ }
+
+ .a:hover{
+  color:rgb(40, 41, 41);
+ }
+ 
+ .Intro,
+ .skills {
+
+   font-size: 25px;
+    margin: 5px 0px 5px 60px;
+ }
+
+ .skills{
+  margin-bottom:10px;
+ }
+
+.ocupation {
+
+   font-size: 45px;
+   margin:0px 0px 20px 60px;
+ }
+
+ p {
+
+   color: white;
+   font-weight: bold;
+   font-size: 20px;
+
+ }
+
+
+ .AboutMe {
+
+   font-weight: Lighter;
+   font-size: 18px;
+   padding-top: 0px;
+   margin-top: 0px;
+   margin-left: 60px;
+
+
+
+ }
+
+ .info {
+
+   width: 50%;
+   display: inline-block;
+   margin-top: 0px;
+   padding-top: 0ps;
+   height: 200px;
+   margin-right: 150px;
+   vertical-align: middle;
+   margin-bottom: 70px;
+ }
+
+ .picture {
+   display: inline-block;
+   width: 30%;
+   height: 300px;
+   margin-bottom: 40px;
+
+
+ }
+
+ .pic {
+   width: 380px;
+   height: 380px;
+   border-radius: 190px;
+   border-color: black;
+   vertical-align: middle;
+   resize: both;
+   overflow: auto;
+    filter: grayscale(90%);
+  
+
+ }
+
+ .pic:hover {
+   box-shadow: 2px 2px 2px 2px rgb(118, 116, 116);
+   transition: 4s ease;
+   color: white;
+   cursor: pointer;
+    filter: grayscale(100%);
+   
+
+ }
+ 
+ .resumefiless {
+
+   width: 100vw;
+   height: 100vh;
+
+ }
+
+ .icons {
+ 
+   margin-left: 650px;
+
+
+ }
+
+ .icon {
+
+   width: 30px;
+   height: 30px;
+    margin:5px 0px 20px 20px;
+   filter: grayscale(20%);
+
+
+ }
