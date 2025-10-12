@@ -1,0 +1,75 @@
+body{
+
+    justify-items:center;
+    background-color: rgb(156, 56, 244);
+}
+
+.strikethrough {
+    text-decoration: line-through;
+    color: rgb(45, 5, 105);
+    font-weight: lighter;
+    font-style:italic;
+}
+
+.taskname{
+
+    height:30px;
+    border-radius: 18px;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.753);
+    margin-right:0px;
+
+}
+
+.addTask,.displayTask{
+
+  height:33px;
+    border-radius: 20px;
+    border-style: solid;
+    border:none;
+ background-color: rgba(255, 255, 255, 0.753);
+color:grey;
+  
+}
+
+.TaskListNames{
+    font-size:22px;
+    margin-bottom: 10px;
+    font-weight: solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid white;
+    transition: border-color 0.3s ease;
+}
+
+.TaskListNames:hover {
+    border-bottom: 2px solid rgb(50, 19, 99); 
+    border-width: 3px;
+}
+
+.deleteItem{
+
+    color:rgb(54, 9, 125);
+    font-size:20px;
+    border:none;
+    margin-left: 10px;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.deleteItem:hover{
+
+    color:black;
+}
+
+.heading{
+    font-size:18px;
+     font-weight: bold;
+    margin-top:70px;
+    margin-bottom: 0px;
+}
